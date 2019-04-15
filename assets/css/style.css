@@ -29,7 +29,10 @@ footer {
 }
 
 h1, h2 {
-    font-size: 1.625em;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 2em;
+    padding: 0.4em;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-left: auto;
@@ -57,4 +60,39 @@ article {
     background-color: #4aaaa5;
     text-align: center;
     text-decoration: none;
+}
+
+.portfolio {
+    /* position: relative;
+    display: inline-block; */
+    width: 5em;
+    margin: 1em;
+}
+
+.portfolio-pic {
+    /* width: 19em; */
+    z-index: 1;
+}
+
+.portfolio-name {
+    /* width: 100%; */
+    line-height: 2;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    z-index: 2;
+}
+
+/* links and link classes */
+
+a, a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
 }
